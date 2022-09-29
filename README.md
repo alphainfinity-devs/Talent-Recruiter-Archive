@@ -1,47 +1,83 @@
-# Getting Started with Create React App and Redux
+# Overview of Talent Recruiter
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+TalentRecruiter is a job hunting platform where users can find the desired jobs. In this web application, we provide different kinds of jobs from multiple companies. Job seekers can post résumés, portfolios, and work-related profiles on many Internet job boards. Employers and recruiters can look through such information when searching for candidates to hire.
 
-## Available Scripts
+# Feature of the project: 
 
-In the project directory, you can run:
+## 🚀Home page:
 
-### `npm start`
+The home page will include the features Navbar, dark and light mode, Banner section, job trading where user can find latest jobs, customer review where user can see our all customer brand name. Feature job section, subscribe section, blog section, footer section
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀Category:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This feature will find all category names ex. Finance, software and IT, UI/UX design so on.
 
-### `npm test`
+## 🚀Job Listing:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+In the section, we will show the Job list. It will be related to the category at the bottom that will show the pagination system.
 
-### `npm run build`
+## 🚀Job detail page:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+In this section, users can see job detail with job deadlines, job summaries, employer names so on.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀Login and Registration:
+Users can log in and register using social media and custom email.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀About page:
+This page will show our mission and vision. The team members who are behind the scene working, the founder's information, and what we achieve so far.
 
-### `npm run eject`
+## 🚀Admin Dashboard:
+Admin can manage all users and jobs. Admin can also review the job post if he approved then it will publish. Admin can customize some of the UI.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🚀Recruiter Dashboard:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The recruiter can post their job in detail. He can update his profile if anyone applies for his/her job post he can see the applicant's resume and profile.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🚀Applicant dashboard:
 
-## Learn More
+Applicant can see their applied job in detail and they can cancel the applied job and also able to update his/her own profile.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🚀CV builder (optional):
+Applicant builds their own resume using his/her information for example. Education, skill, if have experience, project/works with detail, Full name, and job title.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-"# Talent-Recruiter" 
+## 🚀Job search with keyword filtering (optional):
+This feature will allow us to implement debounce technique searching with the most popular keyword filtering.
+
+
+# New technology explanation: 
+
+## 🤷‍♂️Why we are Redux selected?
+Redux is most useful in cases when we have large amounts of application states that are needed in many places in the app. The app state is updated frequently. The logic of updating that state may be complex. The app has a medium or large-sized codebase and might be worked on by many people. Redux is more flexible we don’t need to Props drilling without component architect changes to manage the states. Not only that it also includes Predictable behavior, Centralized, and Debuggable above the reason we selected Redux.
+
+
+## 🔥Our Main Goal Using Redux:
+While it’s mostly used as a state management tool with React, we can use it with any other JavaScript framework or library. It’s lightweight at 2KB (including dependencies), so we don’t have to worry about it making our application’s asset size bigger.
+With Redux, the state of our application is kept in a store, and each component can access any state that it needs from this store. So, our main goal is globally managing application states and updating the UI optimistically.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Big ♨️Thumbs goes to 
+* [Anik Das](http://localhost:3000), 
+* [Fajla Rabby Khan ](http://localhost:3000), 
+* [Ahasan Habib Sany](http://localhost:3000),
+* [Nayim Hossen](http://localhost:3000),
+* [Rasel Mahmud](https://github.com/raselmahmud22)
+
+
+
