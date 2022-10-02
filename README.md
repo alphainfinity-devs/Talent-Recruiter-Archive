@@ -54,6 +54,8 @@ Redux is most useful in cases when we have large amounts of application states t
 ## 🔥Our Main Goal Using Redux:
 While it’s mostly used as a state management tool with React, we can use it with any other JavaScript framework or library. It’s lightweight at 2KB (including dependencies), so we don’t have to worry about it making our application’s asset size bigger.
 With Redux, the state of our application is kept in a store, and each component can access any state that it needs from this store. So, our main goal is globally managing application states and updating the UI optimistically.
+\
+##nayim Hossen
 
 
 
