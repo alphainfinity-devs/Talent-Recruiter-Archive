@@ -76,7 +76,7 @@ With Redux, the state of our application is kept in a store, and each component 
 * [Anik Das](http://localhost:3000), 
 * [Fajla Rabby Khan ](http://localhost:3000), 
 * [Ahasan Habib Sany](http://localhost:3000),
-* [Nayim Hossen](http://localhost:3000),
+* [Nayim Hossen](https://github.com/nayimhossen),
 * [Rasel Mahmud](https://github.com/raselmahmud22)
 
 
