@@ -62,7 +62,7 @@ With Redux, the state of our application is kept in a store, and each component 
 
 ### Big ♨️Thumbs goes to
 
-- [Anik Das](https://github.com/anikjoyy),
+- [Anik](https://github.com/anikjoyy),
 - [Fajla Rabby Khan ](http://localhost:3000),
 - [Ahasan Habib Sany](http://localhost:3000),
 - [Nayim Hossen](https://github.com/nayimhossen),
